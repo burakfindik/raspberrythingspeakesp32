@@ -1,5 +1,5 @@
-channelID = xxxxxx;                                  -> Buraya kanal numarası tanımlanıyor.
-alertApiKey = 'TAKixxxxxxxxxxx';                     -> Buraya alarm api anahtarı tanımlanıyor.
+channelID = xxxxxx;                                    -> Buraya kanal numarası tanımlanıyor.
+alertApiKey = 'TAKixxxxxxxxxxx';                       -> Buraya alarm api anahtarı tanımlanıyor.
 alertUrl="https://api.thingspeak.com/alerts/send";
 options = weboptions("HeaderFields", ["ThingSpeak-Alerts-API-Key", alertApiKey]);
 alertSubject = sprintf("Warning - PM25 Status");
