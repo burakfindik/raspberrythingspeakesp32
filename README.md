@@ -14,4 +14,4 @@ Raspberry Pi4 ile programlama işlemlerine başlamadan önce aşağıdaki komutl
 
 Güncelleme işlemlerini yaptıktan sonra Raspberry Pi4 cihazımıza Arduino IDE'nin mevcut sürümünü kurmamız gerekmektedir.
 
-![github-small](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_2.png)
+![github-small](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_2.png) width="100" height="100"
