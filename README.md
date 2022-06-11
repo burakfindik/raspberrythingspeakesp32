@@ -1,2 +1,37 @@
 # raspberrythingspeakesp32
-By using Raspberry Pi4 and ESP32s, data sending to ThingSpeak and creating the alarm
+By using Raspberry Pi4 and ESP32s, data sending to ThingSpeak.com and creating the alarm
+Raspberry Pi4 ve ESP32s kullanarak ThingSpeak.con'a veri gönderme veri alarm oluşturma.
+
+int measurePin = 33; //Toz sensörünün analog çıkışını ESP32'nin 33.pinine bağlayın.
+int ledPower = 21;   //Toz sensörünün led sürücüsünü ESP32'nin 21.pinine bağlayın.
+
+int samplingTime = 280;
+int deltaTime = 40;
+int sleepTime = 9680;
+
+float voMeasured = 0;
+float calcVoltage = 0;
+float dustDensity = 0;
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(ledPower,OUTPUT);
+}
+
+void loop(){
+  digitalWrite(ledPower,LOW); // Led sürücüsü üzerindeki güç durumu.
+  delayMicroseconds(samplingTime);
+  voMeasured = analogRead(measurePin); // Toz sensöründeki değeri ölçer.
+  delayMicroseconds(deltaTime);
+  
+  digitalWrite(ledPower,HIGH); 
+  delayMicroseconds(sleepTime);
+  
+  // 0 - 5V voltaj değerlerini 0 - 1023 tam sayı değerlerine uyarlar.
+  calcVoltage = voMeasured * (5.0 / 1024.0);
+  dustDensity = 170 * calcVoltage - 0.1;
+  
+  Serial.println(dustDensity); //  ug/m3
+  
+  delay(2000);
+}
