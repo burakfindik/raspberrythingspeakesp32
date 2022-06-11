@@ -65,4 +65,22 @@ Bu işlemden sonra Raspberry Pi4'te kurulu olan bir Python derleyecisinden (Thon
 <img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_9.png" width="1000" height="750">
   
 Veriler Thingspeak.com üzeriinde MATLAB / Mathwork altyapısını kullarak grafiksel olarak gösteriliyor.
+  
+Son olarak veriler eğer ayarladığımız aralığın dışına çıkarsa **REACT** oluşturarak mail ile bilgilendirilmeyi sağlıyoruz.
+  
+  
+<p align=center>
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_10.png" width="400" height="600">
+ 
+Parametleri belirledikten sonra **save** butonuna tıklıyoruz.
+
+<p align=center>
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_11.png" width="600" height="500">
+
+ **Save and Run** butonuna bastığımızda veriler belirttiğimiz aralığın dışına çıkarsa Thingspeak.com'a kaydolduğumuz e-posta hesabına bilgilendirme maili gönderelicektir.
+
+<p align=center>
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_12.png" width="1000" height="600">
+ 
+Thingspeak.com her 30 dakika içersinde 2 defa mail ile bilgilendirme sağlamaktadır.
  
