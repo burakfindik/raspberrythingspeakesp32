@@ -1,11 +1,5 @@
-# Raspberry Pi4 ve ESP32s kullanarak ThingSpeak.com'a veri gönderme ve alarm oluşturma
-## Projenin Amacı
-Normal Kelime
-**Kalın Kelime** </br>
-*İtalik kelime*
-
-'git status'
-`git status`
+# HAVA KALİTESİ ÖLÇÜMÜ VE NESNELERİN İNTERNETİ UYGULAMASI
+## Raspberry Pi4 ve ESP32s kullanarak ThingSpeak.com'a veri gönderme ve alarm oluşturma
 
 Raspberry Pi4 ile programlama işlemlerine başlamadan önce aşağıdaki komutlar ile mevcut sürümü güncellememiz gerekmektedir.
 
@@ -72,8 +66,8 @@ Son olarak veriler eğer ayarladığımız aralığın dışına çıkarsa **REA
 <p align=center>
 <img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_10.png" width="400" height="600">
  
-Parametleri belirledikten sonra **save** butonuna tıklıyoruz.
-
+Parametleri belirledikten sonra **save** butonuna tıklıyoruz.[Matlab Kodu ile](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/matlab_analysis)
+Matlab Analysis kısmını programlıyoruz.
 <p align=center>
 <img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_11.png" width="600" height="500">
 
