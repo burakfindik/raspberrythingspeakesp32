@@ -74,7 +74,7 @@ Matlab Analysis kısmını programlıyoruz.
  **Save and Run** butonuna bastığımızda veriler belirttiğimiz aralığın dışına çıkarsa Thingspeak.com'a kaydolduğumuz e-posta hesabına bilgilendirme maili gönderelicektir.
 
 <p align=center>
-<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_12.png" width="1050" height="700">
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_12.png" width="1000" height="700">
  
 Thingspeak.com her 30 dakika içersinde 2 defa mail ile bilgilendirme sağlamaktadır.
  
