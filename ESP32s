@@ -1,5 +1,3 @@
-//Raspberry Pi4 ve ESP32s kullanarak ThingSpeak.con'a veri gönderme veri alarm oluşturma.
-
 int measurePin = 33; //Toz sensörünün analog çıkışını ESP32'nin 33.pinine bağlayın.
 int ledPower = 21;   //Toz sensörünün led sürücüsünü ESP32'nin 21.pinine bağlayın.
 
