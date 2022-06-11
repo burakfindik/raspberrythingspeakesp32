@@ -11,3 +11,12 @@ Bu proje, bu tür cihazlardan biri olan kablo bağlantılı yazıcıların günc
 CUPS: Common Unix Print Server
 
 CUPS, Apple Inc. tarafından macOS® ve diğer UNIX® benzeri işletim sistemleri için geliştirilen standartlara dayalı, açık kaynaklı bir yazıcı sistemidir. Internet Yazdırma Protokolü'nü ("IPP") kullanır ve yazıcıları ve yazdırma işlerini yönetmek için System V ve Berkeley komut satırı arabirimleri, bir web arabirimi ve bir C API sağlar. Hem yerel (paralel, seri, U
+Bu proje dahilinde CUPS bizim yazıcı sunucumuz olarak çalışacaktır. Aynı zamanda bu sunucu AirPrint desteği ile mobil cihazlar üzerinden yazıcılara kablosuz erişimi de desteklemektedir.
+
+linux_print1
+
+CUPS Kurulum adımları;
+
+sudo apt update
+sudo apt-get install cups
+Bu kısımda güncelleme olup olmadığını denetledikten sonra CUPS kurulumu için talepte bulunmuş olduk
