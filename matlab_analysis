@@ -1,0 +1,12 @@
+channelID = xxxxxx;                                  -> Buraya kanal numarası tanımlanıyor.
+alertApiKey = 'TAKixxxxxxxxxxx';                     -> Buraya alarm api anahtarı tanımlanıyor.
+alertUrl="https://api.thingspeak.com/alerts/send";
+options = weboptions("HeaderFields", ["ThingSpeak-Alerts-API-Key", alertApiKey]);
+alertSubject = sprintf("Warning - PM25 Status");
+PM25Data = thingSpeakRead(channelID,'NumDays',30,'Fields',3);
+alertBody = ' Warning: PM25 has risen to ' + PM25Data(end); 
+ try
+    webwrite(alertUrl , "body", alertBody, "subject", alertSubject, options);
+catch someException
+    fprintf("Failed to send alert: %s\n", someException.message);
+end
