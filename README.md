@@ -49,3 +49,20 @@ Böylelikle Arduino IDE'mize tanımlı olan Nodemcu-32s kartını seçebiliriz.
 <img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_7.png" width="600" height="500"> 
   
 ESP32s'i Raspberry Pi4'ün herhangi bir USB portuna bağlayarak seri bağlantımızı sağlamış oluyoruz.
+
+Seri olarak bağladıktan sonra [ESP32s Kodu ile](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/ESP32s) Arduino IDE'den ESP32'yi programlıyoruz.
+
+Bu işlemden sonra Raspberry Pi4'te kurulu olan bir Python derleyecisinden (Thonny IDE vs.) [Python Kodu ile](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/python.py) Raspberry Pi4'ü programlıyoruz.
+ 
+**ThingSpeak.com üzerinde gerekli ayarların yapılması**
+ <p align=center>
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_8.png" width="1000" height="750">
+  
+ Yukarıdaki resimde gösterildiği gibi proje ismini, açıklamasını yazıp ve kanal aktivasyonlarını yaptıktan sonra konfigirasyonu kaydediyoruz.
+ Böylelikle gerekli parametleri kodların içine yazarak ThingSpeak.com'a veri göndermeye başlayabiliriz.
+  
+ <p align=center>
+<img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_9.png" width="1000" height="750">
+  
+Veriler Thingspeak.com üzeriinde MATLAB / Mathwork altyapısını kullarak grafiksel olarak gösteriliyor.
+ 
