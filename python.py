@@ -2,7 +2,7 @@
 import serial
 from urllib.request import urlopen
 import time
-key = "641EU3XFI6GAPPKJ"  # Put your API Key here
+key = "xxxxxxxxxxxxxxxxx"  # Buraya API anahtarını yazınız.
 URL = "https://api.thingspeak.com/update?api_key={}".format(key)
 
 
