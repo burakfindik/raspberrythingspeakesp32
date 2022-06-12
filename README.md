@@ -81,5 +81,5 @@ Matlab Analysis kısmını programlıyoruz.
 <p align=center>
 <img src= "https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/Images/Screenshot_12.png" width="1200" height="500">
  
-Thingspeak.com her 30 dakika içersinde 2 defa mail ile bilgilendirme sağlamaktadır.
+Thingspeak.com her 30 dakika içerisinde mail ile yalnızca 2 defa bilgilendirme sağlamaktadır.
  
