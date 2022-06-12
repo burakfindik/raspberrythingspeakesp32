@@ -45,7 +45,12 @@ Böylelikle Arduino IDE'mize tanımlı olan Nodemcu-32s kartını seçebiliriz.
 ESP32s'i Raspberry Pi4'ün herhangi bir USB portuna bağlayarak seri bağlantımızı sağlamış oluyoruz.
 
 Seri olarak bağladıktan sonra [ESP32s Kodu ile](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/ESP32s) Arduino IDE'den ESP32'yi programlıyoruz.
-
+ 
+Python'da kodların ve sistemin çalışabilmesi için aşağıdaki kütüphaneleri yüklememiz gerekli.
+ 
+ `pip3 install Thingspeak` </br>
+`pip3 install urllib3`
+ 
 Bu işlemden sonra Raspberry Pi4'te kurulu olan bir Python derleyecisinden (Thonny IDE vs.) [Python Kodu ile](https://github.com/burakfindik/raspberrythingspeakesp32/blob/main/python.py) Raspberry Pi4'ü programlıyoruz.
  
 **ThingSpeak.com üzerinde gerekli ayarların yapılması**
